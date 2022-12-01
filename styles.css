@@ -1,0 +1,29 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 80px;
+    transform: skewY(-10deg);
+    letter-spacing: 4px;
+    word-spacing: -8px;
+    color: rgb(71, 163, 255);
+    text-shadow: 
+    -1px -1px 0 rgb(19, 26, 219),
+    -2px -2px 0 rgb(19, 26, 219),
+    -3px -3px 0 rgb(19, 26, 219),
+    -4px -4px 0 rgb(19, 26, 219),
+    -5px -5px 0 rgb(19, 26, 219),
+    -6px -6px 0 rgb(19, 26, 219),
+    -7px -7px 0 rgb(19, 26, 219),
+    -8px -8px 0 rgb(19, 26, 219),
+    -30px 20px 40px dimgrey
+}
